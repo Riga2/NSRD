@@ -1,6 +1,8 @@
 ## <u>N</u>eural <u>S</u>uper-Resolution for Real-time Rendering with <u>R</u>adiance <u>D</u>emodulation (CVPR 2024)
 
-### [Paper](https://markdown.com.cn) | [Datasets](https://markdown.com.cn)
+### [Paper](https://arxiv.org/abs/2308.06699) | Datasets
+
+![Teaser](https://github.com/Riga2/NSRD/blob/main/user-imgs/teaser.jpg)
 
 ### Installation
 
@@ -20,8 +22,9 @@ pip install -r requirements.txt
 The following training and testing take the Bistro scene (X4) as an example.
 
 ### Training
-1. Download the dataset and put it in the "dataset" folder.
+1. Make a folder named "dataset", and then download the dataset and put it inside.
 ```bazaar
+|--configs
 |--dataset
     |--Bistro
         |--train
