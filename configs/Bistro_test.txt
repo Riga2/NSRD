@@ -1,0 +1,9 @@
+root_dir = ../dataset/Bistro/test
+grain = 300
+total_folder_num = 4
+test_folder = [1]           # Currently only supports testing one folder at a time
+valid_folder_num = 0
+test_only = True
+save = Bistro_X4
+resume = -1
+save_results = True

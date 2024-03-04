@@ -1,3 +1,9 @@
+# user settings
+dataset/
+experiment/
+src/check/*
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
