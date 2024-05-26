@@ -1,6 +1,6 @@
 ## <u>N</u>eural <u>S</u>uper-Resolution for Real-time Rendering with <u>R</u>adiance <u>D</u>emodulation (CVPR 2024)
 
-### [Paper](https://arxiv.org/abs/2308.06699) | [Datasets](https://pan.baidu.com/s/1GJZ34keRFvGqnJ1Wgg0RHw?pwd=riga)
+### [Paper](https://arxiv.org/abs/2308.06699) | [Datasets](https://pan.baidu.com/s/1GJZ34keRFvGqnJ1Wgg0RHw?pwd=riga) | [Project Page](https://riga2.github.io/nsrd/)
 
 ![Teaser](https://github.com/Riga2/NSRD/blob/main/user-imgs/teaser.jpg)
 
