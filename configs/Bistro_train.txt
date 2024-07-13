@@ -1,7 +1,7 @@
 root_dir = ../dataset/Bistro/train
 grain = 100
 total_folder_num = 60
-test_folder = ()
+test_folder = []
 valid_folder_num = 6
 test_only = False
 save = Bistro_X4

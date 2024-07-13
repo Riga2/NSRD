@@ -106,6 +106,7 @@ class Trainer():
         pre_sr = torch.zeros(1, 3, self.gt_size[0], self.gt_size[1],
                              dtype=torch.float32).cuda()
         lstm_state = None
+        os.makedirs(".\check", exist_ok=True)
         for index, (LR_lst, HR_lst, MV_up_lst, Mask_up_lst, filename) in tqdm(enumerate(self.valid_loader)):
             lr, hr, mv_up, mask_up = self.prepare(LR_lst[0], HR_lst[0], MV_up_lst[0], Mask_up_lst[0])
             if index == 0:

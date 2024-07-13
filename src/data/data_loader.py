@@ -13,7 +13,7 @@ class SubsetSequenceSampler(Sampler):
         self.indices = indices
 
     def __iter__(self):
-        return (self.indices[i] for i in range(len(self.indices)))
+        return iter(self.indices)
 
     def __len__(self):
         return len(self.indices)
@@ -36,8 +36,9 @@ class RenderingDataLoader(DataLoader):
                 self.valid_range += range(i * args.grain, (i+1) * args.grain)
 
         self.test_range = []
-        for i in args.test_folder:
-            self.test_range += range(i * args.grain, (i+1) * args.grain)
+        if args.test_folder is not None:
+            for i in args.test_folder:
+                self.test_range += range(i * args.grain, (i+1) * args.grain)
 
         self.idx_train = []
         for idx in range(self.n_samples):
