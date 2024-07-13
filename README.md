@@ -1,6 +1,10 @@
 ## <u>N</u>eural <u>S</u>uper-Resolution for Real-time Rendering with <u>R</u>adiance <u>D</u>emodulation (CVPR 2024)
 
-### [Paper](https://arxiv.org/abs/2308.06699) | Datasets
+### [Paper](https://arxiv.org/abs/2308.06699) | [Project Page](https://riga2.github.io/nsrd/)
+
+__Note__: Since the dataset is quite large, we have uploaded three scenes to **OneDrive** currently: [Bitsro](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/cuteloong_mail_sdu_edu_cn/EWaiWyZbRxNLgWw7wTV6IBYB2NXLimZ4JcvKhlWpZQ6Jzg?e=hc9scu), [Pica](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/202215216_mail_sdu_edu_cn/ESRf0I6mKH1PqL9wpOW-q7YBYygrKDF9q13piFd1Xyce9g?e=sNhN72) and [San_M](https://mailsdueducn-my.sharepoint.com/:u:/g/personal/202215216_mail_sdu_edu_cn/Eek4usuLcUZGlHCnpzPD63YBukX5FlXELUbTzWa3_zsx1Q?e=nFAwRR).
+
+If you are in China mainland, you can also access the dataset on [Baidu Cloud Disk](https://pan.baidu.com/s/1GJZ34keRFvGqnJ1Wgg0RHw?pwd=riga).
 
 ![Teaser](https://github.com/Riga2/NSRD/blob/main/user-imgs/teaser.jpg)
 
@@ -60,5 +64,12 @@ cd src
 python remodulation.py --exp_dir ../experiment/Bistro_X4 --gt_dir ../dataset/Bistro/test/GT
 ```
 
-### Citations
-
+### Citation
+```
+@inproceedings{li2024nsrd,
+  title={Neural Super-Resolution for Real-time Rendering with Radiance Demodulation},
+  author={Li, Jia and Chen, Ziling and Wu, Xiaolong and Wang, Lu and Wang, Beibei and Zhang, Lei},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
+}
+```
