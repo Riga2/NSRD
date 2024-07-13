@@ -66,10 +66,11 @@ python remodulation.py --exp_dir ../experiment/Bistro_X4 --gt_dir ../dataset/Bis
 
 ### Citation
 ```
-@inproceedings{li2024nsrd,
+@inproceedings{li2024neural,
   title={Neural Super-Resolution for Real-time Rendering with Radiance Demodulation},
   author={Li, Jia and Chen, Ziling and Wu, Xiaolong and Wang, Lu and Wang, Beibei and Zhang, Lei},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={4357--4367},
   year={2024}
 }
 ```
